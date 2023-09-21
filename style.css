@@ -1,0 +1,79 @@
+
+body{
+    
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    background-image:url("./Bgcal1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.Calculator{
+    display: inline-block;
+}
+h1{
+    margin: 140px 0  50px 0;
+    text-align: center;
+    font-size: 4rem;
+  color:rgb(18, 12, 12);
+  font-family: "Arvo", cursive;
+  text-shadow: 6px 0 #f1310b;
+}
+
+.container{
+    height: 500px;
+    width: 300px;
+    box-shadow: 4px 4px 30px black;
+    margin-top: 10px;
+    border-radius: 12px;
+    background-color: rgb(56, 47, 47);
+    overflow: hidden;
+    /* background-color: black; */
+}
+.screen{
+    height: 170px;
+    width: 300px;
+    border-radius: 12px;
+    background-color: black;
+    border: none;
+    color: aliceblue;
+    padding: 3px;
+    font-size: larger;
+    font-weight: 400;
+    text-align: start;
+    pointer-events: none;
+    
+}
+.buttons{
+   margin: 5px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:space-between ;
+}
+.key{
+flex: 0 0 22%;   
+margin: 5px 0 2px 9px ;   
+border: 2px;                                                         
+height: 55px;
+width: 55px;
+border-radius: 4px;
+font-size: large;
+font-weight: 700;
+cursor: pointer;
+}
+
+.btn_y{
+background-color: goldenrod;
+}
+
+.btn_c{
+background-color: rgb(235, 67, 67);
+}
+
+.btn_g{
+    background-color: rgb(226, 208, 208);
+}
+
+.btn_tl{
+    background-color: rgb(78, 235, 78);
+}
